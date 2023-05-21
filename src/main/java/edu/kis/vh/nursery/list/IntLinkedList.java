@@ -2,6 +2,16 @@ package edu.kis.vh.nursery.list;
 
 public class IntLinkedList {
 
+    static class Node {
+
+        public int value;
+        public Node prev, next;
+
+        public Node(int i) {
+            value = i;
+        }
+
+    }
     public static final int EMPTY = -1;
     Node last;
     int i;
@@ -39,3 +49,5 @@ public class IntLinkedList {
     }
 
 }
+
+
